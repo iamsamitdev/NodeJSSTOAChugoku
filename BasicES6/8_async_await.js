@@ -1,6 +1,6 @@
 const f = async() => {
     let promise = new Promise((resolve, reject) => {
-        console.log("Loading...")
+        console.log("กำลังโหลดข้อมูล..")
         setTimeout(() => {
             resolve("done")
         }, 3000)
@@ -11,5 +11,3 @@ const f = async() => {
 }
 
 f()
-
-clg
